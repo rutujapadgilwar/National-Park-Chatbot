@@ -42,9 +42,12 @@ Create a new project in Dialogflow and add the .zip from the repository.
 ### Test the Dialogflow Messenger
 For testing purposes, we can interact with ngrok to create a tunnel and expose our local server to the internet. By adding the ngrok URL to Dialogflow, we can seamlessly integrate the chatbot or voice assistant and interact with it in real-time. This setup enables us to thoroughly test and refine the functionality of the National Park Chatbot before deploying it for broader use
 
+### Deploy the Flask application
+I deployed it using https://render.com/. After completing the deployment, add the webhook to Dialogflow and integrate it with the Dialogflow Messenger using the provided code. You can then add this chatbot to your website.
+
 ### Web demo
-I have developed both a voice assistant as well as a chatbot. I created the chatbot so it can be added to the previous national park project, but for a demo, you can view my work using the links below:
+Both a voice assistant and a chatbot have been developed. The chatbot is seamlessly added to the previous national park project. You can view all React code by visiting the previous repository. Here, I extended the Dialogflow Messenger to a website for a better user experience and converted the park dashboard into the National-park-helper site with the chatbot
 
 Voice Assistance: https://bot.dialogflow.com/603c58a0-a891-443e-a66b-824337a6ca13
 
-Chat bot: https://park-helper-2.onrender.com/webhook
+Chat bot: https://national-park-chatbot.netlify.app/
